@@ -7,6 +7,37 @@
  * Copyright 20212 Makenson Noel
  * Licensed under MIT (https://github.com/makensonn/Portfolioo/blob/master/LICENSE)
  */
+
+
+/*Custom CSS*/
+html {
+  scroll-behavior:smooth
+}
+
+#back-to-top{
+  height:50px;
+  width:50px;
+  position:fixed;
+  right:0;
+  z-index:99;
+
+  border-radius:50%;
+  box-shadow: 0px 0px 5px #ccc;
+  margin:17px;
+  background:white;
+
+  /*Position Out of View*/
+  bottom:-150px;
+  opacity:0;
+  transition: all .5s ease;
+}
+#back-to-top.show-btt{
+  /*Position In View*/
+  bottom:0;
+  opacity:1;
+  transition: all .5s ease;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
