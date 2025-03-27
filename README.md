@@ -6,39 +6,84 @@
 # 📌 makensonn.github.io  
 **Personal Portfolio Website**  
 
-## 🚀 Overview  
-This is my personal portfolio website, built to showcase my projects, skills, and experiences. The site is designed to be clean, responsive, and user-friendly, highlighting my background in software development, web development, and data analytics.  
+# makensonn.github.io
 
-## 🎨 Features  
-- Interactive and responsive UI  
-- Showcases portfolio projects  
-- Includes information about my skills and experience  
-- Links to my resume and contact details  
-- Deployed using GitHub Pages  
+## Personal Portfolio Website
 
-## 🛠️ Technologies Used  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Frameworks & Libraries:** React, Next.js  
-- **Deployment:** GitHub Pages  
+### Overview
 
-## 📂 Repository Structure  
+This is the repository for my personal portfolio website, designed to showcase my projects, skills, and experiences in software development, web development, and data analytics. The site offers a clean, responsive, and user-friendly interface to highlight my professional background.
 
-/ 📁 root
-├── 📁 public # Static assets (images, favicon, etc.)
-├── 📁 src # Source code for the website
-├── 📄 index.html # Main entry file
-├── 📄 README.md # Documentation
-├── 📄 package.json # Dependencies and scripts
-├── 📄 next.config.js # Next.js configuration
+### Features
 
+- Interactive and responsive user interface
+- Showcase of portfolio projects
+- Detailed information about skills and experience
+- Links to resume and contact details
+- Deployed using GitHub Pages
 
-## 🚀 Getting Started  
-1. **Clone the repository**  
-   ```sh
+### Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Frameworks & Libraries:** React, Next.js
+- **Styling:** Tailwind CSS
+- **Deployment:** GitHub Pages
+
+### Repository Structure
+
+- `public/` - Contains static assets such as images and the favicon.
+- `src/app/` - Holds the source code for the website.
+- `.eslintrc.json` - Configuration file for ESLint to maintain code quality.
+- `.gitignore` - Specifies files and directories to be ignored by Git.
+- `README.md` - This documentation file.
+- `jsconfig.json` - Configuration file for JavaScript projects.
+- `next.config.js` - Next.js configuration settings.
+- `package-lock.json` - Records the exact version of installed dependencies.
+- `package.json` - Lists project dependencies and scripts.
+- `postcss.config.js` - Configuration for PostCSS, used in processing CSS.
+- `tailwind.config.js` - Tailwind CSS configuration file.
+
+### Getting Started
+
+To set up the project locally:
+
+1. **Clone the repository:**
+
+   ```bash
    git clone https://github.com/makensonn/makensonn.github.io.git
-   cd makensonn.github.io
-npm install
+   ```
 
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd makensonn.github.io
+   ```
+
+3. **Install the dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
+
+### Deployment
+
+The website is deployed using GitHub Pages and is accessible at [makensonn.github.io](https://makensonn.github.io/).
+
+### Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
+
+### License
+
+This project is licensed under the MIT License.
 
 
 
