@@ -67,7 +67,7 @@ To set up the project locally:
 
 ### Deployment
 
-The website is deployed using GitHub Pages and is accessible at [makensonn.github.io](https://makensonn.github.io/).
+The website is deployed using GitHub Pages and is accessible at [makenson.com](https://makenson.com).
 
 ### Contributing
 
