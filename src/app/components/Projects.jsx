@@ -7,13 +7,19 @@ import Footer from "./Footer";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 // Image Imports
-import projectOneImg from "../assets/projects/asl.gif";
-import projectTwoImg from "../assets/projects/thousand.gif";
-import projectThreeeImg from "../assets/projects/mozy.svg";
-import projectFourImg from "../assets/projects/mbj.svg";
-import projectSixImg from "../assets/projects/insight.svg";
-import projectFiveImg from "../assets/projects/lulawn.svg";
-import projectThreeImg from "../assets/projects/robot.png";
+import projectOneImg from "../assets/projects/asl.png";
+import projectTwoImg from "../assets/projects/thousand.png";
+import projectThreeeImg from "../assets/projects/mozy.png";
+import projectFourImg from "../assets/projects/mbj.png";
+import projectFiveImg from "../assets/projects/lulawn.png";
+import projectSixImg from "../assets/projects/insight.png";
+
+import projectSevenImg from "../assets/projects/art.png";
+import projectEightImg from "../assets/projects/cof.png";
+import projectNineImg from "../assets/projects/dontforget.png";
+import projectTenImg from "../assets/projects/guitto.png";
+import projectElevenImg from "../assets/projects/sc.png";
+import projectTwelveImg from "../assets/projects/gym.png";
 
 
 // Source URLs
@@ -45,13 +51,13 @@ const Projects = () => {
         <div className={gridStyle}>
           {/* Project 1*/}
           <ProjectItems
-            title="Project"
+            title="Project: American Sign Langauge Hand Tracker"
             backgroundImg={projectOneImg}
             projectUrl="/asl"
             tech=""
           />
 
-          {/* Description *
+          {/* Description 
           <p>
             Title: Hand Gesture Tracker
             <br></br>
@@ -61,7 +67,7 @@ const Projects = () => {
 
           {/* Project 2*/}
           <ProjectItems
-            title="Project"
+            title="Project: Custom Shopify Template"
             backgroundImg={projectTwoImg}
             projectUrl="https://thousandmen.co/"
             tech=""
@@ -77,7 +83,7 @@ const Projects = () => {
 
           {/* Project 3*/}
           <ProjectItems
-            title="Project"
+            title="Project: Custom Shopify Template"
             backgroundImg={projectThreeeImg}
             projectUrl="https://amoseb.com/"
             tech=""
@@ -104,7 +110,7 @@ const Projects = () => {
           {/* Project 4*/}
 
           <ProjectItems
-            title="Project"
+            title="Project: Custom Shopify Template"
             backgroundImg={projectFourImg}
             projectUrl="https://mbjllc.store/"
             tech=""
@@ -121,7 +127,7 @@ const Projects = () => {
           {/* Project 5*/}
 
           <ProjectItems
-            title="Project"
+            title="Project: Custom Business Landing Page"
             backgroundImg={projectFiveImg}
             projectUrl="https://lulawn.vercel.app/"
             tech=""
@@ -138,9 +144,58 @@ const Projects = () => {
           {/* Project 6*/}
 
           <ProjectItems
-            title="Project"
+            title="Project: Hackathon Accessibility Website"
             backgroundImg={projectSixImg}
             projectUrl="https://insitee.github.io/"
+            tech=""
+          />
+
+
+          
+          <ProjectItems
+            title="Project: Art Gallery Website"
+            backgroundImg={projectSevenImg}
+            projectUrl="https://github.com/makensonn/web-development-projects/tree/master/art"
+            tech=""
+          />
+
+          
+          <ProjectItems
+            title="Project: Informative Coding Website"
+            backgroundImg={projectEightImg}
+            projectUrl="https://github.com/makensonn/web-development-projects/tree/master/cof"
+            tech=""
+          />
+
+          
+          <ProjectItems
+            title="Project: To-Do List"
+            backgroundImg={projectNineImg}
+            projectUrl="https://github.com/makensonn/web-development-projects/tree/master/todolist"
+            tech=""
+          />
+
+          
+          <ProjectItems
+            title="Project: Custom Business Landing Page"
+            backgroundImg={projectTenImg}
+            projectUrl="https://guitto-eta.vercel.app/"
+            tech=""
+          />
+
+          
+          <ProjectItems
+            title="Project: Speed Converter"
+            backgroundImg={projectElevenImg}
+            projectUrl="https://github.com/makensonn/web-development-projects/tree/master/sc"
+            tech=""
+          />
+
+          
+          <ProjectItems
+            title="Project: Informative Workout Website"
+            backgroundImg={projectTwelveImg}
+            projectUrl="https://github.com/makensonn/web-development-projects/tree/master/gym"
             tech=""
           />
 

@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import aslImg from "../assets/projects/asl.svg"; //ASL Hand Tracker
+import aslImg from "../assets/projects/asl.png"; //ASL Hand Tracker
 import YouTubePlayer from "../components/YouTubePlayer";
 import { RiRadioButtonFill } from "react-icons/ri";
 
