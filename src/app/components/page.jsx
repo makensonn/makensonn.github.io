@@ -4,8 +4,8 @@ import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 // Image Imports
-import projectOneImg from "../assets/projects/asl.gif";
-import projecttTwoImg from "../assets/projects/thousand.jpg";
+import projectOneImg from "../assets/projects/asl.png";
+import projecttTwoImg from "../assets/projects/thousand.png";
 import projectThreeImg from "../assets/projects/shellhacks.png";
 import projectFourImg from "../assets/projects/robot.png";
 import projectTwoImg from "../assets/projects/insight.png";
