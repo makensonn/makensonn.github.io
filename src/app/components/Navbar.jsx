@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import MakImg from "../assets/logo.svg";
+import MakImg from "../assets/logo.png";
 
 // Tailwind CSS classes as constants
 const navBarStyle =
