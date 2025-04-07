@@ -39,8 +39,8 @@ const About = () => {
           </p>
           <p className="py-2"></p>
           <p className="py-2">
-            Hello! I&apos;m Mak, a motivated and detail-oriented
-            Software Developer with a passion for crafting robust and
+            Hello! I&apos;m Makenson, a motivated and detail-oriented
+            Software Engineer with a passion for crafting robust and
             user-friendly solutions.
             <br />
             <br />
@@ -48,7 +48,7 @@ const About = () => {
             enjoy creating seamless, engaging software experiences.
             <br />
             <br />
-            BS in Computer Science, Florida Atlantic
+            Bachelor of Science in Computer Science, Florida Atlantic
             University. <br />
             Awards: Best Accessibility Hack, PlutoHacks 2022.
             <br />
