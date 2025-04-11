@@ -155,7 +155,7 @@ const Projects = () => {
           <ProjectItems
             title="Project: Art Gallery Website"
             backgroundImg={projectSevenImg}
-            projectUrl="https://github.com/makensonn/web-development-projects/tree/master/art"
+            projectUrl="https://makensonn.github.io/art/"
             tech=""
           />
 
@@ -163,7 +163,7 @@ const Projects = () => {
           <ProjectItems
             title="Project: Informative Coding Website"
             backgroundImg={projectEightImg}
-            projectUrl="https://github.com/makensonn/web-development-projects/tree/master/cof"
+            projectUrl="https://makensonn.github.io/cof"
             tech=""
           />
 
@@ -171,7 +171,7 @@ const Projects = () => {
           <ProjectItems
             title="Project: To-Do List"
             backgroundImg={projectNineImg}
-            projectUrl="https://github.com/makensonn/web-development-projects/tree/master/todolist"
+            projectUrl="https://makensonn.github.io/todolist"
             tech=""
           />
 
@@ -187,7 +187,7 @@ const Projects = () => {
           <ProjectItems
             title="Project: Speed Converter"
             backgroundImg={projectElevenImg}
-            projectUrl="https://github.com/makensonn/web-development-projects/tree/master/sc"
+            projectUrl="https://makensonn.github.io/sc"
             tech=""
           />
 
@@ -195,7 +195,7 @@ const Projects = () => {
           <ProjectItems
             title="Project: Informative Workout Website"
             backgroundImg={projectTwelveImg}
-            projectUrl="https://github.com/makensonn/web-development-projects/tree/master/gym"
+            projectUrl="https://makensonn.github.io/gym"
             tech=""
           />
 
