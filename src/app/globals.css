@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
@@ -11,9 +10,9 @@ html {
 }
 
 :root {
-  --foreground-rgb: 33, 33, 33;
-  --background-start-rgb: 250, 250, 250;
-  --background-end-rgb: 250, 250, 250;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 33, 33, 33;
+  --background-end-rgb: 33, 33, 33;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,63 +26,83 @@ html {
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    135deg,
+    rgba(var(--background-start-rgb), 1) 0%,
+    rgba(var(--background-end-rgb), 1) 100%
+  );
+  @apply min-h-screen flex flex-col;
+  animation: fadeInBody 1s ease-in-out;
 }
 
-
+/* Typography */
 h1, h2, h3, h4, h5, h6 {
-  @apply font-bold
+  @apply font-bold tracking-tight;
 }
 
 h1 {
-  @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+  @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway];
 }
 
 h2 {
-  @apply text-3xl sm:text-4xl
+  @apply text-3xl sm:text-4xl font-[Raleway];
 }
 
+/* Lists */
 li {
-  @apply cursor-pointer
+  @apply cursor-pointer hover:text-blue-500 transition-colors duration-300;
 }
 
+/* Buttons */
 button {
-  @apply rounded-full shadow-lg shadow-neutral-950 p-6 cursor-pointer hover:scale-110 ease-in duration-300
+  @apply rounded-full p-6 shadow-lg shadow-neutral-950 transform transition-transform duration-300 ease-in-out hover:scale-110 hover:rotate-1 active:scale-95 bg-gradient-to-r from-purple-500 to-indigo-500 text-white;
 }
 
+/* Form fields */
+input, textarea, select {
+  background-color: rgba(var(--background-end-rgb), 0.9);
+  color: rgb(var(--foreground-rgb));
+  border: 1px solid rgba(var(--foreground-rgb), 0.4);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  @apply w-full mb-4 transition-all duration-300;
+}
 
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #6366f1; /* Indigo focus color */
+  box-shadow: 0 0 10px #6366f1;
+}
+
+/* Dark mode forms */
+@media (prefers-color-scheme: dark) {
+  input, textarea, select {
+    background-color: rgba(var(--foreground-rgb), 0.1);
+    color: rgb(var(--background-start-rgb));
+    border-color: rgba(var(--background-start-rgb), 0.5);
+  }
+}
+
+/* Animations */
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInBody {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
 }
 
 .fade-in {
-  animation: fadeIn 0.5s ease-in-out;
+  animation: fadeIn 1s ease-out forwards;
 }
 
-/* Form field styles */
-input, textarea, select {
-  background-color: rgb(var(--background-end-rgb));
-  color: rgb(var(--foreground-rgb));
-  border: 1px solid rgb(var(--foreground-rgb));
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-}
-
-/* Dark mode styles for form fields */
-@media (prefers-color-scheme: dark) {
-  input, textarea, select {
-    background-color: rgb(var(--foreground-rgb));
-    color: rgb(var(--background-start-rgb));
-    border-color: rgb(var(--background-start-rgb));
-  }
+.float {
+  animation: float 3s ease-in-out infinite;
 }
