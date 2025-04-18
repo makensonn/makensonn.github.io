@@ -81,7 +81,7 @@ const Projects = () => {
             This is a custom designed ecommerce webapp for Thousandmen using Shopify & JavaScript.
           </p>
 
-          {/* Project 3*/}
+          {/* Project 3*
           <ProjectItems
             title="Project: Custom Shopify Template"
             backgroundImg={projectThreeeImg}
@@ -90,7 +90,7 @@ const Projects = () => {
           />
 
 
-          {/* Description *
+          /* Description *
           <p>
             Title: Robot App
             <br></br>
@@ -107,7 +107,7 @@ const Projects = () => {
             This is a custom designed drop shipping webapp for AmoseB using Shopify & JavaScript.
           </p>
 
-          {/* Project 4*/}
+          {/* Project 4*
 
           <ProjectItems
             title="Project: Custom Shopify Template"
@@ -192,7 +192,7 @@ const Projects = () => {
           />
 
           
-          <ProjectItems
+          {/*<ProjectItems
             title="Project: Informative Workout Website"
             backgroundImg={projectTwelveImg}
             projectUrl="https://makensonn.github.io/gym"

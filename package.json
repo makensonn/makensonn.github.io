@@ -13,6 +13,7 @@
     "@react-three/fiber": "^8.15.12",
     "@vercel/analytics": "^1.1.1",
     "babel": "^6.23.0",
+    "framer-motion": "^12.7.4",
     "link": "^2.1.0",
     "next": "^14.0.3",
     "next-auth": "^4.24.5",
@@ -28,7 +29,7 @@
     "react-three-game-engine": "^0.14.6",
     "react-youtube": "^10.1.0",
     "redux": "^4.2.1",
-    "sharp": "^0.30.7",
+    "sharp": "^0.34.1",
     "socket.io-client": "^4.7.2",
     "three": "^0.160.0"
   },
