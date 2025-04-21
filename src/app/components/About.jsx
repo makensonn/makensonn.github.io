@@ -44,7 +44,7 @@ const About = () => {
             user-friendly solutions.
             <br />
             <br />
-            I&apos;ve been actively involved in deloping custom software. I
+            I&apos;ve been actively involved in developing custom software. I
             enjoy creating seamless, engaging software experiences.
             <br />
             <br />

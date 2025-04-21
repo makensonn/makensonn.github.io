@@ -7,6 +7,7 @@ import Bootstrap from "../assets/skills/bootstrap.png";
 import Node from "../assets/skills/node.png";
 import NextJS from "../assets/skills/nextjs.png";
 import CPP from "../assets/skills/cpp.png";
+import Csharp from "../assets/skills/csharp.png";
 import Java from "../assets/skills/java.png";
 import Python from "../assets/skills/python.png";
 import Image from "next/image";
@@ -21,13 +22,13 @@ const just = "max-w-[1240px] m-auto px-2 py-16 w-full ";
 
 const skillsData = [
   { image: CPP, label: "C++", link: "https://cplusplus.com/" },
+  { image: Csharp, label: "C#", link: "https://dotnet.microsoft.com/en-us/learn/csharp" },
   { image: Java, label: "Java", link: "https://www.java.com/en/download/help/whatis_java.html", },
   { image: Python, label: "Python", link: "https://www.python.org/" },
   { image: TypeScript, label: "TypeScript", link: "https://www.typescriptlang.org/", },
   { image: Javascript, label: "JavaScript", link: "https://www.javascript.com/", },
   { image: Html, label: "HTML", link: "https://www.w3schools.com/html/" },
   { image: Css, label: "CSS", link: "https://www.w3schools.com/css/" },
-  { image: Bootstrap, label: "Bootstrap", link: "https://www.w3schools.com/bootstrap/" },
 ];
 
 const Skills = () => {
