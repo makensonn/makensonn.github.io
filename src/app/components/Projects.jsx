@@ -73,6 +73,21 @@ const Projects = () => {
             tech=""
           />
 
+          <ProjectItems
+            title="Project: Speed Converter"
+            backgroundImg={projectElevenImg}
+            projectUrl="https://makensonn.github.io/sc"
+            tech=""
+          />
+
+          <ProjectItems
+            title="Project: To-Do List"
+            backgroundImg={projectNineImg}
+            projectUrl="https://makensonn.github.io/todolist"
+            tech=""
+          />
+
+
           {/* Description *
           <p>
             Title: Thousandmen.co
@@ -126,12 +141,6 @@ const Projects = () => {
 
           {/* Project 5*/}
 
-          <ProjectItems
-            title="Project: Custom Business Landing Page"
-            backgroundImg={projectFiveImg}
-            projectUrl="https://lulawn.vercel.app/"
-            tech=""
-          />
 
           {/* Description *
           <p>
@@ -149,9 +158,21 @@ const Projects = () => {
             projectUrl="https://insitee.github.io/"
             tech=""
           />
-
-
           
+          <ProjectItems
+            title="Project: Informative Coding Website"
+            backgroundImg={projectEightImg}
+            projectUrl="https://makensonn.github.io/cof"
+            tech=""
+          /> 
+          
+          <ProjectItems
+              title="Project: Custom Business Landing Page"
+              backgroundImg={projectFiveImg}
+              projectUrl="https://lulawn.vercel.app/"
+              tech=""
+            />
+
           <ProjectItems
             title="Project: Art Gallery Website"
             backgroundImg={projectSevenImg}
@@ -159,21 +180,6 @@ const Projects = () => {
             tech=""
           />
 
-          
-          <ProjectItems
-            title="Project: Informative Coding Website"
-            backgroundImg={projectEightImg}
-            projectUrl="https://makensonn.github.io/cof"
-            tech=""
-          />
-
-          
-          <ProjectItems
-            title="Project: To-Do List"
-            backgroundImg={projectNineImg}
-            projectUrl="https://makensonn.github.io/todolist"
-            tech=""
-          />
 
           
           <ProjectItems
@@ -184,13 +190,6 @@ const Projects = () => {
           />
 
           
-          <ProjectItems
-            title="Project: Speed Converter"
-            backgroundImg={projectElevenImg}
-            projectUrl="https://makensonn.github.io/sc"
-            tech=""
-          />
-
           
           {/*<ProjectItems
             title="Project: Informative Workout Website"
